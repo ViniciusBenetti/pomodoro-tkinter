@@ -3,8 +3,6 @@ from tkinter import ttk
 import datetime
 import pickle
 import os
-from matplotlib.figure import Figure
-from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import tkinter.messagebox
 
 
@@ -331,11 +329,6 @@ window.config(background="black")
 window.title('pomodoro')
 window.geometry("800x500+300+100")
 window.resizable(width=False, height=True)
-
-imagem = PhotoImage(file="pomodoro.gif")
-imagem_label = Label(window, image=imagem, background="black")
-imagem_label.image = imagem
-imagem_label.place(x=320, y=150)
 
 Titulo = Label(window, text="POMODORO", font="Comic-Sans-MS 28 ", foreground="white", background="black").place(x=280, y=45)
 Descricao = Label(window, text='"Maximize seu foco com apenas um clique."', foreground="white", background="black", font="Comic-Sans-MS 12 italic").place(x=240, y=99)
