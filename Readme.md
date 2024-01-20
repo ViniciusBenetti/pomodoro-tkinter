@@ -1,0 +1,1 @@
+Aplicativo criado usando Tkinter Pomodoro Timer Com Histórico 
