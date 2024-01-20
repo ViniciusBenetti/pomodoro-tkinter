@@ -1,1 +1,1 @@
-Aplicativo criado usando Tkinter Pomodoro Timer Com Histórico 
+Aplicativo criado usando Tkinter Pomodoro Timer Com Histórico e sugestão do que fazer durante o intervalo
